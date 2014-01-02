@@ -1,0 +1,66 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+}
+
+div.floatholder {
+  clear: both;
+}
+
+header {
+  background: black;
+  color: white;
+  padding: .5rem 1rem;
+  a, a:visited, a:hover, a:active { 
+    color: white;
+    text-decoration: none;
+  }
+  .main {
+    display: inline-block;
+  }
+  li {
+    list-style-type: none;
+    display: inline-block;
+  }
+  h1.logo {
+    margin: 0;
+    font-family: "Thirsty Script";
+    display: inline-block;
+  }
+}
+
+section.hero {
+  background-color: rgba(113,92,168,1);
+  position: relative;
+  &:after {
+    background: inherit;
+    height: 2em;
+    width: 2em;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: Calc(50% - 1em);
+    -webkit-transform: rotateZ(45deg) translateX(1.4em);
+  }
+}
+
+section.workflow {
+  background: #999;
+  padding: 35px;
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    li {
+      display: block;
+      float: left;
+      padding: 0 40px;
+    }
+  }
+  
+}
