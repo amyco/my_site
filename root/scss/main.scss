@@ -1,63 +1,19 @@
 @import 'modules/colors';
 @import 'modules/fonts';
+@import 'modules/reset';
+@import 'modules/header';
 
-html, body {
-  height: 100%;
-}
 
-body {
-  font-family: "Open Sans", sans-serif;
-  height: 100%;
-}
 
 div.floatholder {
   clear: both;
 }
 
-header {
-  background: white;
-  box-shadow: 0 15px 0 rgba(50,50,50,.15);
-  color: black;
-  font-size: 1.25rem;
-  font-weight: 300;
-  height: 5rem;
-  padding: .5rem 1rem;
-  position: fixed;
-  width: 100%;
 
-  nav {
-    float: right;
-  }
-
-  a, a:visited, a:hover, a:active { 
-    color: black;
-    text-decoration: none;
-  }
-
-  .main {
-    display: inline-block;
-  }
-
-  li {
-    display: inline-block;
-    list-style-type: none;
-
-  }
-
-  h1.logo {
-    margin: 0;
-    display: inline-block;
-    img {
-      width: 60%;
-    }
-  }
-}
 
 section.hero {
   height: 25rem;
-  padding-top: 6rem;
-  position: relative;
-  z-index: -1;
+  padding: 2rem;
 
   &.home:after {
     background: inherit;

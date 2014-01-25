@@ -1,0 +1,38 @@
+header {
+  background: white;
+  box-shadow: 0 15px 0 rgba(50,50,50,.15);
+  color: black;
+  font-size: 1.25rem;
+  font-weight: 300;
+  height: 5rem;
+  padding: .5rem 2rem;
+  width: 100%;
+
+  nav {
+    float: right;
+  }
+
+  a, a:visited, a:hover, a:active { 
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .main {
+    display: inline-block;
+  }
+
+  li {
+    display: inline-block;
+    list-style-type: none;
+
+  }
+
+  h1.logo {
+    margin: 0;
+    float: left;
+    img {
+      width: 60%;
+    }
+  }
+}
