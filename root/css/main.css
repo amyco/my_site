@@ -88,6 +88,25 @@ header {
     header h1.logo img {
       width: 60%; }
 
+* {
+  margin: 0; }
+
+html, body {
+  height: 100%; }
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto 4rem;
+  /* the bottom margin is the negative value of the footer's height */ }
+
+/*
+
+Sticky Footer by Ryan Fait
+http://ryanfait.com/
+
+*/
 div.floatholder {
   clear: both; }
 
@@ -162,7 +181,7 @@ footer {
 .contact input[type="text"],
 .contact input[type="email"],
 .contact textarea {
-  box-shadow: 5px 5px 0px #c8c8c8;
+  box-shadow: 5px 5px 0 #c8c8c8, 4px 4px 0 #c8c8c8, 3px 3px 0 #c8c8c8, 2px 2px 0 #c8c8c8, 1px 1px 0 #c8c8c8;
   width: 25em; }
   .contact input[type="text"]:focus,
   .contact input[type="email"]:focus,
